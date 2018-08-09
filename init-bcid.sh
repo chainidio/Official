@@ -77,7 +77,7 @@ if [ ! -f "/bcid/.init" ]; then
 else
 	echo -e " init-bcid.sh: Init already done, skipping init."
 fi
-
+chmod u+x ./init-bcid.sh
 cd /ChainCoin
 chmod u+x ./run.sh
 ./run.sh
